@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #7bdaf3;
+  background-color: #04c2fc;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -31,16 +31,16 @@ body {
 }
 
 .note {
-  background-color: #fff;
+  background-color: #f9ffd7;
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 30px 20px;
   height: 400px;
   width: 400px;
-  overflow-y: scroll;
+  border-radius: 10%;
 }
 
 .note .tools {
-  background-color: #9ec862;
+  background-color: #00db99;
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem;
@@ -63,6 +63,7 @@ body {
   height: 400px;
   width: 100%;
   padding: 20px;
+  background: #f9ffd7;
 }
 
 .main {
@@ -71,4 +72,9 @@ body {
 
 .hidden {
   display: none;
+}
+
+.fa-thumbtack {
+  width: -webkit-fill-available;
+  text-shadow: 1px 1px white;
 }

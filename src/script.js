@@ -14,6 +14,7 @@ function addNewNote(text = '') {
 
     note.innerHTML = `
     <div class="tools">
+        <i class="fas fa-thumbtack"></i>
         <button class="edit"><i class="fas fa-edit"></i></button>
         <button class="delete"><i class="fas fa-trash-alt"></i></button>
     </div>
